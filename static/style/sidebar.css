@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+  font-family: "Montserrat", "sans-serif";
+} 
+.menuButton{
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  visibility: visible;
+}
+.main-menuButton{
+  margin-top: 24px;
+  padding-left: 10px;
+}
+.sidebar{
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  background: linear-gradient(57deg, rgb(40, 59, 167), rgb(52, 105, 175));
+  width: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+  transition: all, 0.3s;
+  visibility: visible;
+  
+}
+.sidebar a:hover{
+  color: rgb(209, 206, 206);
+}
+.xbutton{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-size: 45px;
+  color: #fff;
+  padding-left: 8px;
+}
+.sidebar-a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding-top: 26px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+.sprovider-main-points-a:hover{
+  text-decoration: underline;
+  color: rgb(40, 59, 167);
+}
+@media (min-width: 1200px){
+  .menuButton{
+    visibility: hidden;
+  }
+}
